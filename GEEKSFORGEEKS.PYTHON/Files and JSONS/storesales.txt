@@ -1,0 +1,5 @@
+Customer name:Shiv,Phone No:12345,Mail:ac@gmail.com,Product ID:4,Product Name:Keybord,Product Quantity5,Total price:5000Date and Time:Tue May 31 00:17:33 2022
+Customer name:Sourav,Phone No:123,Mail:asd@gmail.com,Product ID:1,Product Name:Laptop,Product Quantity25,Total price:1000000Date and Time:Tue May 31 00:22:07 2022
+Customer name:a,Phone No:1,Mail:df,Product ID:3,Product Name:Battery,Product Quantity:12,Total price:60000,Date and Time:Tue May 31 00:31:18 2022
+Customer name:konshu,Phone No:123,Mail:kon@gmail.com,Product ID:3,Product Name:Battery,Product Quantity:5,Total price:25000,Date and Time:Tue May 31 00:32:21 2022
+Customer name:Sourav Sutradhar,Phone No:98645355,Mail:aman@gmail.com,Product ID:3,Product Name:Battery,Product Quantity:5,Total price:25000,Date and Time:Tue May 31 00:39:58 2022

@@ -1,0 +1,4 @@
+1,Laptop,50000,20
+2,Mobile,15000,20
+3,Battery,5000,15
+4,Keybord,1000,20

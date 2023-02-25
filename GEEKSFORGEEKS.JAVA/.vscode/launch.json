@@ -1,0 +1,854 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch check3",
+            "request": "launch",
+            "mainClass": "check3",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BridgeOfStones",
+            "request": "launch",
+            "mainClass": "BridgeOfStones",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForkJava",
+            "request": "launch",
+            "mainClass": "ForkJava",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Intro",
+            "request": "launch",
+            "mainClass": "Intro",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Intro2",
+            "request": "launch",
+            "mainClass": "Intro2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch JaggedArray",
+            "request": "launch",
+            "mainClass": "JaggedArray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultidimentionalArray2",
+            "request": "launch",
+            "mainClass": "MultidimentionalArray2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiimentionalArray",
+            "request": "launch",
+            "mainClass": "MultiimentionalArray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultplicationTable",
+            "request": "launch",
+            "mainClass": "MultplicationTable",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program1",
+            "request": "launch",
+            "mainClass": "Program1",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomAccessFileExample",
+            "request": "launch",
+            "mainClass": "RandomAccessFileExample",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOddEven",
+            "request": "launch",
+            "mainClass": "SumOddEven",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch addInJava",
+            "request": "launch",
+            "mainClass": "addInJava",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch anagram",
+            "request": "launch",
+            "mainClass": "anagram",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch armstrong",
+            "request": "launch",
+            "mainClass": "armstrong",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayReverse",
+            "request": "launch",
+            "mainClass": "arrayReverse",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch avgArray",
+            "request": "launch",
+            "mainClass": "avgArray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch check1",
+            "request": "launch",
+            "mainClass": "check1",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch check2",
+            "request": "launch",
+            "mainClass": "check2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch common3arr",
+            "request": "launch",
+            "mainClass": "common3arr",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch countDistinct",
+            "request": "launch",
+            "mainClass": "countDistinct",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch countPairs",
+            "request": "launch",
+            "mainClass": "countPairs",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch countdupilcate",
+            "request": "launch",
+            "mainClass": "countdupilcate",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch cycleyrotatearray",
+            "request": "launch",
+            "mainClass": "cycleyrotatearray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch duplicateArr",
+            "request": "launch",
+            "mainClass": "duplicateArr",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch exam",
+            "request": "launch",
+            "mainClass": "exam",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonaci",
+            "request": "launch",
+            "mainClass": "fibonaci",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch fir",
+            "request": "launch",
+            "mainClass": "fir",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch isSorted",
+            "request": "launch",
+            "mainClass": "isSorted",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch jaggedarray",
+            "request": "launch",
+            "mainClass": "jaggedarray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch just",
+            "request": "launch",
+            "mainClass": "just",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch kthsmallest",
+            "request": "launch",
+            "mainClass": "kthsmallest",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch leap",
+            "request": "launch",
+            "mainClass": "leap",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch leetcode1",
+            "request": "launch",
+            "mainClass": "leetcode1",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch leetcode2",
+            "request": "launch",
+            "mainClass": "leetcode2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch leetcode3",
+            "request": "launch",
+            "mainClass": "leetcode3",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch lengthArray",
+            "request": "launch",
+            "mainClass": "lengthArray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch lessThan",
+            "request": "launch",
+            "mainClass": "lessThan",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop1",
+            "request": "launch",
+            "mainClass": "loop1",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop2",
+            "request": "launch",
+            "mainClass": "loop2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop3",
+            "request": "launch",
+            "mainClass": "loop3",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop4",
+            "request": "launch",
+            "mainClass": "loop4",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop6",
+            "request": "launch",
+            "mainClass": "loop6",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch maxArray",
+            "request": "launch",
+            "mainClass": "maxArray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch missingInt",
+            "request": "launch",
+            "mainClass": "missingInt",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch moveAllNeg",
+            "request": "launch",
+            "mainClass": "moveAllNeg",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch nat",
+            "request": "launch",
+            "mainClass": "nat",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch nor",
+            "request": "launch",
+            "mainClass": "nor",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch normal",
+            "request": "launch",
+            "mainClass": "normal",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch nsum",
+            "request": "launch",
+            "mainClass": "nsum",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch occurence",
+            "request": "launch",
+            "mainClass": "occurence",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch oops2",
+            "request": "launch",
+            "mainClass": "oops2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch bank",
+            "request": "launch",
+            "mainClass": "p1.bank",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pangram",
+            "request": "launch",
+            "mainClass": "pangram",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pat3",
+            "request": "launch",
+            "mainClass": "pat3",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pat4",
+            "request": "launch",
+            "mainClass": "pat4",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pat5",
+            "request": "launch",
+            "mainClass": "pat5",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pat6",
+            "request": "launch",
+            "mainClass": "pat6",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pat7",
+            "request": "launch",
+            "mainClass": "pat7",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern1",
+            "request": "launch",
+            "mainClass": "pattern1",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern2",
+            "request": "launch",
+            "mainClass": "pattern2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch profile",
+            "request": "launch",
+            "mainClass": "profile",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program1",
+            "request": "launch",
+            "mainClass": "program1",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program10",
+            "request": "launch",
+            "mainClass": "program10",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program11",
+            "request": "launch",
+            "mainClass": "program11",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program12",
+            "request": "launch",
+            "mainClass": "program12",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program13",
+            "request": "launch",
+            "mainClass": "program13",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program14",
+            "request": "launch",
+            "mainClass": "program14",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program15",
+            "request": "launch",
+            "mainClass": "program15",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program16",
+            "request": "launch",
+            "mainClass": "program16",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program17",
+            "request": "launch",
+            "mainClass": "program17",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program19",
+            "request": "launch",
+            "mainClass": "program19",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program2",
+            "request": "launch",
+            "mainClass": "program2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program20",
+            "request": "launch",
+            "mainClass": "program20",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program21",
+            "request": "launch",
+            "mainClass": "program21",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program22",
+            "request": "launch",
+            "mainClass": "program22",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program24",
+            "request": "launch",
+            "mainClass": "program24",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program28",
+            "request": "launch",
+            "mainClass": "program28",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program3",
+            "request": "launch",
+            "mainClass": "program3",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program32",
+            "request": "launch",
+            "mainClass": "program32",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program34",
+            "request": "launch",
+            "mainClass": "program34",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program35",
+            "request": "launch",
+            "mainClass": "program35",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program36",
+            "request": "launch",
+            "mainClass": "program36",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program4",
+            "request": "launch",
+            "mainClass": "program4",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program40",
+            "request": "launch",
+            "mainClass": "program40",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program44",
+            "request": "launch",
+            "mainClass": "program44",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program5",
+            "request": "launch",
+            "mainClass": "program5",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program54",
+            "request": "launch",
+            "mainClass": "program54",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program6",
+            "request": "launch",
+            "mainClass": "program6",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program60",
+            "request": "launch",
+            "mainClass": "program60",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program61",
+            "request": "launch",
+            "mainClass": "program61",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program62",
+            "request": "launch",
+            "mainClass": "program62",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program63",
+            "request": "launch",
+            "mainClass": "program63",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program64",
+            "request": "launch",
+            "mainClass": "program64",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program65",
+            "request": "launch",
+            "mainClass": "program65",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program66",
+            "request": "launch",
+            "mainClass": "program66",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program67",
+            "request": "launch",
+            "mainClass": "program67",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program68",
+            "request": "launch",
+            "mainClass": "program68",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program69",
+            "request": "launch",
+            "mainClass": "program69",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program70",
+            "request": "launch",
+            "mainClass": "program70",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program71",
+            "request": "launch",
+            "mainClass": "program71",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program72",
+            "request": "launch",
+            "mainClass": "program72",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program73",
+            "request": "launch",
+            "mainClass": "program73",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program74",
+            "request": "launch",
+            "mainClass": "program74",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program75",
+            "request": "launch",
+            "mainClass": "program75",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program76",
+            "request": "launch",
+            "mainClass": "program76",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program77",
+            "request": "launch",
+            "mainClass": "program77",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program8",
+            "request": "launch",
+            "mainClass": "program8",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch program9",
+            "request": "launch",
+            "mainClass": "program9",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverse",
+            "request": "launch",
+            "mainClass": "reverse",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch sec",
+            "request": "launch",
+            "mainClass": "sec",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch sepEvenOdd",
+            "request": "launch",
+            "mainClass": "sepEvenOdd",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortArray",
+            "request": "launch",
+            "mainClass": "sortArray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch sorting",
+            "request": "launch",
+            "mainClass": "sorting",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch string1",
+            "request": "launch",
+            "mainClass": "string1",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch string2",
+            "request": "launch",
+            "mainClass": "string2",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumArray",
+            "request": "launch",
+            "mainClass": "sumArray",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumofdigit",
+            "request": "launch",
+            "mainClass": "sumofdigit",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        },
+        {
+            "type": "java",
+            "name": "Launch tempCodeRunnerFile",
+            "request": "launch",
+            "mainClass": "tempCodeRunnerFile",
+            "projectName": "GEEKSFORGEEKS.JAVA_5481600e"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": [
+        "check",
+        "ca4",
+        "Programing Questions",
+        "Exception Handling",
+        "Exam",
+        "Cap392",
+        "Array",
+        "String"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

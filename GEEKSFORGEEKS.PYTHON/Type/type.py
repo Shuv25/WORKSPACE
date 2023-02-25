@@ -1,0 +1,14 @@
+a=5
+print(type(a))
+b=1.5
+print(type(b))
+c="String"
+print(type(c))
+l=[10,20,30]
+print(type(l))
+t=(40,50,60)
+print(type(t))
+s={70,80,90}
+print(type(s))
+d={1:"Shuv",2:"Sutradhar",3:"Bhatnagar"}
+print(type(d))
