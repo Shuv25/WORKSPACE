@@ -1,5 +1,5 @@
-l1 = [1, 2, 3, 7]
-l2 = [10, 11, 9, 10]
+l1 = [1, 5, 9]
+l2 = [9, 7, 2]
 
 l3 = []
 carry = 0
@@ -17,5 +17,4 @@ for i in range(len(l1)):
     else:
         sum = l1[i]+l2[i]+int(carry)
         l3.append(sum)
-
 print(l3)
