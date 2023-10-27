@@ -1,17 +1,18 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
 void first(int input)
 {
-    for(int i=1;i<=10;i++)
+    for (int i = 1; i <= input; i++)
     {
-        cout<<i<<" ";
+        cout << i << " ";
     }
 }
 
 int main()
 {
-    first(10);
+    int n = 20;
+    first(n);
     return 0;
 }
