@@ -15,7 +15,7 @@ int main()
     cout << &p << endl; // will print the address of p
     cout << *p << endl; // will print the value of a because here we dereferencing the pointer p
     cout << endl;
-    *p = 10; // we are changing the value pf a through pointer pusing dereferencing
+    *p = 10; // we are changing the value of a through pointer pusing dereferencing
     cout << a << endl;
     cout << *p << endl;
 

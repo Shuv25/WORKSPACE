@@ -3,48 +3,57 @@
 
 using namespace std;
 
-class Book
+class details
 {
 private:
-    int bookid;
-    string bookname;
-    float bookprice;
+    int rollno;
+    string name;
+    int marks;
 
 public:
-    Book()
+    details()
     {
-        bookid = 0;
-        bookname = "No Title";
-        bookprice = 0;
+        rollno = 0;
+        name = "No Name";
+        marks = 0;
     }
 
     void getdata()
     {
-        cout << "Enter bookid, name and price: ";
-        cin >> bookid;
+        cout << "Enter rollno, name and marks: ";
+        cin >> rollno;
         cin.ignore();
-        getline(cin, bookname);
-        cin >> bookprice;
-    }
-    void showdata()
-    {
-        cout << "Book Id:" << bookid << " Book Name:" << bookname << " Book Price:" << bookprice << endl;
+        getline(cin, name);
+        cin >> marks;
     }
 
     int getrecord();
+    void viewallbooks();
 };
 
-int Book::getrecord()
+void details::viewallbooks()
 {
-    if (bookid == 0 && bookprice == 0)
+    ifstream fin;
+    fin.open("f2.txt");
+    string line;
+    while (getline(fin, line))
+    {
+        cout << line << endl;
+    }
+    fin.close();
+}
+
+int details::getrecord()
+{
+    if (rollno == 0 && marks == 0)
     {
         return 0;
     }
     else
     {
         ofstream fout;
-        fout.open("f2.txt", ios::app | ios::binary);
-        fout.write((char *)this, sizeof(*this));
+        fout.open("f2.txt", ios::app);
+        fout << rollno << "," << name << "," << marks << endl;
         fout.close();
         return 1;
     }
@@ -52,10 +61,9 @@ int Book::getrecord()
 
 int main()
 {
-    Book b1, b2;
+    details b1, b2;
     b1.getdata();
-    b1.showdata();
+    // b1.showdata();
     b1.getrecord();
-    b2.showdata();
-    b2.getrecord();
+    b1.viewallbooks();
 }

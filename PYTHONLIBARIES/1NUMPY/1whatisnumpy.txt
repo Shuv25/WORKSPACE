@@ -1,0 +1,62 @@
+What is NumPy?
+NumPy is the fundamental package for scientific computing in Python.
+NumPy is a Python library that provides a multidimensional array object, various derived objects.
+
+What is NumPy Array ?
+An array is a grid of values and it contains information about the raw data, how to locate an element, and how to interpret an element.
+
+NumPy vs Python List
+Advantages of using Numpy Arrays Over Python Lists:
+consumes less memory.
+fast as compared to the python List.
+convenient to use.
+
+Installation & Import NumPy
+
+Installation NumPy
+pip install numpy
+
+Import NumPy
+Import numpy as np
+
+
+Importance of NumPy in Python
+wide variety of mathematical operations on arrays.
+It supplies an enormous library of high-level mathematical functions that
+operate on these arrays and matrices.
+mathematical, logical, shape manipulation, sorting, selecting, 1/0, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+
+Difference Between NumPy Array and List in Python
+Data types storage
+Importing module
+Numerical operation
+Modification capabilities
+Consumes less memory
+Fast as compared to the python list
+Convenient to use
+
+Creating NumPy Arrays
+To create a NumPy array, you can use the function np.array().
+import numpy as np
+a = np.array( [I, 2, 3] )
+print( a )
+
+Dimensions in Arrays
+I-D Arrays
+2-D Arrays
+3-D Arrays
+Higher Dimensional Arrays
+
+Spacial NumPy Array
+Ärray filled with O's
+Array filled with I's
+Create an empty array
+An array with a range of elements
+Array diagonal element filled with I's
+Create an array with values that are spaced linearly in a specified interval
+
+Create NumPy Arrays with Random Numbers
+rand(): the function is used to generate a random value between O to I.
+randn(): the function is used to generate a random value close to zero. This may return positive or negative numbers as well.
+ranf(): the function for doing random sampling in numpy. It returns an array of specified shape and fills it with random floats in the half-open interval [0.0, 1.0).
+randint( ) : the fuction is used to generate a random number be in a given range.
