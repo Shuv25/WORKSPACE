@@ -4,13 +4,14 @@ using namespace std;
 
 int maxn(int i, int array[])
 {
-    if (i > 9)
+    if (i > 2)
     {
-        return array[i];
+        return -1;
     }
     int misa = maxn(i + 1, array);
     if (misa > array[i])
     {
+        cout << misa << " " << array[i] << endl;
         return misa;
     }
     else

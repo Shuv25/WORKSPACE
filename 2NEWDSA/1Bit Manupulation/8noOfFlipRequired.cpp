@@ -16,6 +16,7 @@ int noofdigit(int res)
 int nooffliped(int x, int y)
 {
     int res = x ^ y;
+    cout << res << endl;
     return noofdigit(res);
 }
 
