@@ -18,15 +18,14 @@ int main()
     *p = 10; // we are changing the value of a through pointer pusing dereferencing
     cout << a << endl;
     cout << *p << endl;
-
-    // Pointer Arithmetic
+    // // Pointer Arithmetic
     cout << endl;
     cout << p << endl;
     cout << p + 1 << endl;    // it will add 4 bytes that is 32 bits because it is a int data type
     cout << p + 2 << endl;    // it will add 8 bytes that is 64 bits because it is a int data type
     cout << *(p + 1) << endl; // it wull print some garbage value that we dont define at position of p+1, that is address of a plus 4 bytes.
 
-    // Copying pointer
+    // // Copying pointer
 
     cout << endl;
     int *q = p;
