@@ -6,12 +6,10 @@ int LinearSearch(int n, int arr[], int s)
 {
     for (int i = 0; i < n; i++)
     {
-        for (int j = i + 1; j < n; j++)
+
+        if (arr[i] == s)
         {
-            if (arr[i] == s)
-            {
-                return i;
-            }
+            return i;
         }
     }
 
