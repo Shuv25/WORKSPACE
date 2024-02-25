@@ -7,11 +7,11 @@ int getPeak(int arr[], int n)
 
     while (low <= high)
     {
-        int mid = (low + high) / 2;
+        int mid = low + (high - low) / 2;
 
         if ((mid == 0 || arr[mid - 1] <= arr[mid]) &&
             (mid == n - 1 || arr[mid + 1] <= arr[mid]))
-            return mid;
+            return arr[mid];
         if (mid > 0 && arr[mid - 1] >= arr[mid])
             high = mid - 1;
         else
@@ -23,7 +23,7 @@ int getPeak(int arr[], int n)
 int main()
 {
 
-    int arr[] = {5, 20, 40, 30, 20, 50, 60}, n = 7;
+    int arr[] = {5, 6, 4, 3, 2, 1}, n = 6;
 
     cout << getPeak(arr, n);
 
