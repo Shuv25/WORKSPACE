@@ -15,11 +15,14 @@ struct Node
 
 void printlist(Node *head)
 {
-    Node *curr = head;
-    while (curr)
+    if (head == NULL)
     {
-        cout << curr->data << " ";
-        curr = curr->next;
+        return;
+    }
+    cout << head->data << " ";
+    for (Node *p = head->next; p != head; p = p->next)
+    {
+        cout << p->data << " ";
     }
 }
 
@@ -29,7 +32,7 @@ int main()
     head->next = new Node(40);
     head->next->next = new Node(50);
     head->next->next->next = new Node(60);
-    head->next->next->next = head;
+    head->next->next->next->next = head;
 
     printlist(head);
 }
