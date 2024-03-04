@@ -1,33 +1,26 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
-using namespace std;
-
-void Merge(int s, int e, int m, int *arr)
+void merge(int *arr, int l, int m, int r)
 {
-    int mid = (s + e) / 2;
+    int lsize = m - l + 1;
+    int rsize = r - m;
 
-    int llen = m - s + 1;
-    int rlen = e - m;
+    int *larr = new int[lsize];
+    int *rarr = new int[rsize];
 
-    int *larr = new int[llen];
-    int *rarr = new int[rlen];
-
-    int k = s;
-    for (int i = 0; i < llen; i++)
+    int k = l;
+    for (int i = 0; i < lsize; i++)
     {
         larr[i] = arr[k++];
     }
-    k = mid + 1;
-    for (int i = 0; i < rlen; i++)
+    for (int i = 0; i < rsize; i++)
     {
         rarr[i] = arr[k++];
     }
-
     int lindex = 0;
     int rindex = 0;
-
-    k = s;
-    while (lindex < llen && rindex < rlen)
+    k = l;
+    while (lindex < lsize && rindex < rsize)
     {
         if (larr[lindex] < rarr[rindex])
         {
@@ -38,57 +31,52 @@ void Merge(int s, int e, int m, int *arr)
             arr[k++] = rarr[rindex++];
         }
     }
-    while (lindex < llen)
+    while (lindex < lsize)
     {
         arr[k++] = larr[lindex++];
     }
-    while (rindex < rlen)
+    while (rindex < rsize)
     {
         arr[k++] = rarr[rindex++];
     }
-
     delete[] larr;
     delete[] rarr;
 }
 
-void MergeSort(int s, int e, int *arr)
+void mergesort(int *arr, int l, int r)
 {
-    if (s >= e)
+    if (l >= r)
     {
         return;
     }
 
-    int mid = (s + e) / 2;
+    int m = (l + r) / 2;
 
-    MergeSort(s, mid, arr);
-    MergeSort(mid + 1, e, arr);
+    mergesort(arr, l, m);
+    mergesort(arr, m + 1, r);
 
-    Merge(s, e, mid, arr);
+    merge(arr, l, m, r);
 }
 
 int main()
 {
     int n;
-    cout << "Enter the size of the array:";
-    cin >> n;
+    std::cout << "Enter the size:";
+    std::cin >> n;
 
     int *arr = new int[n];
-
-    cout << "Enter the eleents of the array:";
+    std::cout << "Enter the elements of the array:";
     for (int i = 0; i < n; i++)
     {
-        cin >> arr[i];
+        std::cin >> arr[i];
     }
 
-    int start = 0;
-    int end = n - 1;
-    MergeSort(start, end, arr);
+    mergesort(arr, 0, n - 1);
 
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] << " ";
+        std::cout << arr[i] << " ";
     }
-    cout << endl;
 
     delete[] arr;
 }
