@@ -1,26 +1,60 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-void insertionsort(int *arr, int n)
+int partition(int *arr, int s, int e, int n)
 {
-    for (int i = 0; i < n; i++)
+    int pivot = arr[s];
+    int cnt = 0;
+    for (int i = s + 1; i <= e; i++)
     {
-        int k = arr[i];
-        int j;
-        for (j = i - 1; j >= 0; j--)
+        if (arr[i] <= pivot)
         {
-            if (arr[j] > k)
-            {
-                arr[j + 1] = arr[j];
-            }
-            else
-            {
-                break;
-            }
+            cnt++;
         }
-        arr[j + 1] = k;
     }
+
+    int pivoindex = s + cnt;
+
+    int temp = arr[s];
+    arr[s] = arr[pivoindex];
+    arr[pivoindex] = temp;
+
+    int i = s;
+    int j = e;
+
+    while (i < pivoindex && j > pivoindex)
+    {
+        while (i < pivot)
+        {
+            i++;
+        }
+        while (j > pivot)
+        {
+            j--;
+        }
+        if (i < pivoindex && j > pivoindex)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
+        }
+    }
+}
+
+void quicksort(int *arr, int s, int e, int n)
+{
+    if (s >= e)
+    {
+        return;
+    }
+
+    int p = partition(arr, s, e, n);
+
+    quicksort(arr, s, p - 1, n);
+    quicksort(arr, p + 1, e, n);
 }
 
 int main()
@@ -30,16 +64,16 @@ int main()
     cin >> n;
 
     int *arr = new int[n];
-    cout << "Entre the elments of the array:";
+    cout << "Elements:";
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
-
-    insertionsort(arr, n);
+    quicksort(arr, 0, n - 1, n);
 
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     }
+    cout << endl;
 }
